@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Click here]()
-- Live Site URL: [Click here]()
+- Solution URL: [Click here](https://www.frontendmentor.io/solutions/news-home-page-tnOmblcd6Z)
+- Live Site URL: [Click here](https://freedev-group.github.io/News-homepage-wise/)
 
 
 ### Built with
