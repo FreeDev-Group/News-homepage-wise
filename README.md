@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Click here]( )
+- Solution URL: [Click here](https://www.frontendmentor.io/solutions/news-home-page-zpusoBeQTt)
 - Live Site URL: [Click here](https://freedev-group.github.io/News-homepage-wise/)
 
 
