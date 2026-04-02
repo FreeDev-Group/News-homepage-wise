@@ -179,7 +179,7 @@ body {
 }
 
 .list-content span {
-    color: var(--grayish-blue);
+    color: var(--soft-red);
     font-size: 2rem;
     font-weight: 700;
 }
