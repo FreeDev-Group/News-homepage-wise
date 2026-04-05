@@ -14,7 +14,6 @@
  <header class="navbar">
   <img src="./assets/images/logo.svg" alt="W." class="logo">
   <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
-    <span class="sr-only">Menu</span>
     </button>
     <nav>
       <ul id="primary-navigation" data-visible="false" class="primary-navigation">
@@ -86,38 +85,7 @@
   </section>
  </main>
 
- <script>
-  
-  const navToggle = document.querySelector('.mobile-nav-toggle');
-  const primaryNav = document.querySelector('.primary-navigation');
-
-  navToggle.addEventListener('click', () => {
-    const visibility = primaryNav.getAttribute('data-visible');
-
-    if (visibility === "false") {
-      primaryNav.setAttribute('data-visible', true);
-      navToggle.setAttribute('aria-expanded', true);
-    } else if (visibility === "true") {
-      primaryNav.setAttribute('data-visible', false);
-      navToggle.setAttribute('aria-expanded', false);
-    }
-  });
-  const observerOptions = {
-    threshold: 0.1
-  };
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('in-view');
-      } 
-    });
-  }, observerOptions);
-  
-  document.querySelectorAll('.hero, .new-articles, .list-item').forEach(section => {
-    observer.observe(section);
-  });
-  
-</script>
+ <script src="./javascript/main.js"></script>
 
   <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
